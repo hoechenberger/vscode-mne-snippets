@@ -1,0 +1,25 @@
+{
+    "name": "mne-snippets",
+    "displayName": "MNE-Python snippets",
+    "description": "MNE-Python code snippets",
+    "version": "2021.1.0",
+    "publisher": "hoechenberger",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hoechenberger/vscode-mne-snippets.git"
+    },
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
